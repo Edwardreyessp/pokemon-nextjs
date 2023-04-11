@@ -12,7 +12,7 @@ export const PokemonCard: NextPage<PokemonCardProps> = ({ pokemon }) => {
   const router = useRouter();
 
   const handleClick = () => {
-    router.push(`/pokemon/${id}`);
+    router.push(`/name/${name}`);
   };
 
   return (
